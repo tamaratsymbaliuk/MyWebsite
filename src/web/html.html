@@ -34,24 +34,79 @@
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Project 1: [Project Title]</h3>
-            <p>[Brief description of the project.]</p>
-            <a href="[Project Link]" target="_blank">View Project</a>
+            <h3>Project 1: Text Compression Algorithm </h3>
+            <p> Developed a simple algorithm to compress text files, reducing file size while maintaining
+            data integrity </p>
+            <a href="https://github.com/tamaratsymbaliuk/p1project" target="_blank">View Project</a>
         </div>
-        <!-- Add more projects as needed -->
+        <div class="project">
+            <h3>Project 2: Connect 4 Game</h3>
+            <p>A fully interactive Connect 4 game built using the MVP design pattern. The game allows customizable board
+                dimensions and winning conditions. Optimized for performance with efficient win-checking logic.</p>
+            <a href="https://github.com/tamaratsymbaliuk/Connect4" target="_blank">View Project on GitHub</a>
+        </div>
+        
+        <div class="project">
+            <h3>Project 3: Cache Implementation</h3>
+            <p>Implemented a cache system using creational design patterns like Singleton and Factory. The cache supports FIFO,
+                LFU, and LRU eviction strategies and is optimized for both memory use and retrieval speed.</p>
+            <a href="https://github.com/tamaratsymbaliuk/CacheEngine" target="_blank">View Project on GitHub</a>
+        </div>
+        
+        <div class="project">
+            <h3>Project 4: File-Based Data Repository</h3>
+            <p>Designed a file-based data repository that supports CRUD operations for various entities using a repository pattern.
+            This system manages data persistence without the need for an external database, ideal for small-scale applications.</p>
+            <a href="https://github.com/tamaratsymbaliuk/FileBasedDataRepo" target="_blank">View Project on GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Project 5: Simplified Python Interpreter</h3>
+            <p>Developed an interpreter for a simplified Python-like language. This project demonstrates a deep understanding of
+                parsing and execution techniques used in modern interpreters.</p>
+            <a href="https://github.com/tamaratsymbaliuk/p2project/tree/master/p2/src/p2project" target="_blank">View Project on GitHub</a>
+        </div>
+
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>LinkedIn: <a href="[Your LinkedIn Profile]" target="_blank">[Your LinkedIn Profile]</a></p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        
+            <button type="submit">Submit</button>
+        </form>
+        <p id="form-message"></p>
+
+        <p>Email: <a href="mailto:tsymbalt14@gmail.com">tsymbalt14@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/tamara-tsymbaliuk/" target="_blank">[LinkedIn Profile]</a></p>
     </section>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <a id="modal-link" href="#" target="_blank">View on GitHub</a>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer>
-        <p>© 2024 [Your Name]</p>
+        <p>© 2024 Tamara Tsymbaliuk </p>
     </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="main.js"></script>
 </body>
 
 </html>

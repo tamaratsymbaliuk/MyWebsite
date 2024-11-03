@@ -54,6 +54,38 @@ section {
     text-decoration: underline;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005999;
+}
+
+#form-message {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: red;
+}
+
+
 footer {
     background-color: #333;
     color: white;
