@@ -34,7 +34,6 @@ window.addEventListener('click', (e) => {
         modal.style.display = 'none';
     }
 });
-
 // Contact form validation
 const contactForm = document.getElementById('contactForm');
 const formMessage = document.getElementById('form-message');
